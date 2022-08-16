@@ -8,9 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@openui5/sap.m": "^1.105.0",
-    "git": "^0.1.5"
-  }
+  "license": "ISC"
 }
