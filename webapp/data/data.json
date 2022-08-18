@@ -1,0 +1,724 @@
+{
+  "Processes": [
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 1a.m.",
+      "date_duration": 586,
+      "hour_duration": 111
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 2a.m.",
+      "date_duration": 586,
+      "hour_duration": 122
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 3a.m.",
+      "date_duration": 586,
+      "hour_duration": 12
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 4a.m.",
+      "date_duration": 586,
+      "hour_duration": 22
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 5a.m.",
+      "date_duration": 586,
+      "hour_duration": 25
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 6a.m.",
+      "date_duration": 586,
+      "hour_duration": 52
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 7a.m.",
+      "date_duration": 586,
+      "hour_duration": 21
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 8a.m.",
+      "date_duration": 586,
+      "hour_duration": 21
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 9a.m.",
+      "date_duration": 586,
+      "hour_duration": 28
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 10a.m.",
+      "date_duration": 586,
+      "hour_duration": 24
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 11a.m.",
+      "date_duration": 586,
+      "hour_duration": 24
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 12a.m.",
+      "date_duration": 586,
+      "hour_duration": 60
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 1p.m.",
+      "date_duration": 586,
+      "hour_duration": 22
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 2p.m.",
+      "date_duration": 586,
+      "hour_duration": 2
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 3p.m.",
+      "date_duration": 586,
+      "hour_duration": 25
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 4p.m.",
+      "date_duration": 586,
+      "hour_duration": 32
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 5p.m.",
+      "date_duration": 586,
+      "hour_duration": 0
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 6p.m.",
+      "date_duration": 586,
+      "hour_duration": 22
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 7p.m.",
+      "date_duration": 586,
+      "hour_duration": 51
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 8p.m.",
+      "date_duration": 586,
+      "hour_duration": 11
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 9p.m.",
+      "date_duration": 586,
+      "hour_duration": 10
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 10p.m.",
+      "date_duration": 586,
+      "hour_duration": 17
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 11p.m.",
+      "date_duration": 586,
+      "hour_duration": 2
+    },
+    {
+      "date": "2022-07-27",
+      "hour": "2022-07-27 12p.m.",
+      "date_duration": 586,
+      "hour_duration": 4
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 1a.m.",
+      "date_duration": 720,
+      "hour_duration": 111
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 2a.m.",
+      "date_duration": 720,
+      "hour_duration": 122
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 3a.m.",
+      "date_duration": 720,
+      "hour_duration": 12
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 4a.m.",
+      "date_duration": 720,
+      "hour_duration": 22
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 5a.m.",
+      "date_duration": 720,
+      "hour_duration": 25
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 6a.m.",
+      "date_duration": 720,
+      "hour_duration": 52
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 7a.m.",
+      "date_duration": 720,
+      "hour_duration": 21
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 8a.m.",
+      "date_duration": 720,
+      "hour_duration": 21
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 9a.m.",
+      "date_duration": 720,
+      "hour_duration": 28
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 10a.m.",
+      "date_duration": 720,
+      "hour_duration": 24
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 11a.m.",
+      "date_duration": 720,
+      "hour_duration": 24
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 12a.m.",
+      "date_duration": 720,
+      "hour_duration": 60
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 1p.m.",
+      "date_duration": 720,
+      "hour_duration": 22
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 2p.m.",
+      "date_duration": 720,
+      "hour_duration": 2
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 3p.m.",
+      "date_duration": 720,
+      "hour_duration": 25
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 4p.m.",
+      "date_duration": 720,
+      "hour_duration": 32
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 5p.m.",
+      "date_duration": 720,
+      "hour_duration": 0
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 6p.m.",
+      "date_duration": 720,
+      "hour_duration": 22
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 7p.m.",
+      "date_duration": 720,
+      "hour_duration": 51
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 8p.m.",
+      "date_duration": 720,
+      "hour_duration": 11
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 9p.m.",
+      "date_duration": 720,
+      "hour_duration": 10
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 10p.m.",
+      "date_duration": 720,
+      "hour_duration": 17
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 11p.m.",
+      "date_duration": 720,
+      "hour_duration": 2
+    },
+    {
+      "date": "2022-07-26",
+      "hour": "2022-07-26 12p.m.",
+      "date_duration": 720,
+      "hour_duration": 4
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 1a.m.",
+      "date_duration": 390,
+      "hour_duration": 111
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 2a.m.",
+      "date_duration": 390,
+      "hour_duration": 122
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 3a.m.",
+      "date_duration": 390,
+      "hour_duration": 12
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 4a.m.",
+      "date_duration": 390,
+      "hour_duration": 22
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 5a.m.",
+      "date_duration": 390,
+      "hour_duration": 25
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 6a.m.",
+      "date_duration": 390,
+      "hour_duration": 52
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 7a.m.",
+      "date_duration": 390,
+      "hour_duration": 21
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 8a.m.",
+      "date_duration": 390,
+      "hour_duration": 21
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 9a.m.",
+      "date_duration": 390,
+      "hour_duration": 28
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 10a.m.",
+      "date_duration": 390,
+      "hour_duration": 24
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 11a.m.",
+      "date_duration": 390,
+      "hour_duration": 24
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 12a.m.",
+      "date_duration": 390,
+      "hour_duration": 60
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 1p.m.",
+      "date_duration": 390,
+      "hour_duration": 22
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 2p.m.",
+      "date_duration": 390,
+      "hour_duration": 2
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 3p.m.",
+      "date_duration": 390,
+      "hour_duration": 25
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 4p.m.",
+      "date_duration": 390,
+      "hour_duration": 32
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 5p.m.",
+      "date_duration": 390,
+      "hour_duration": 0
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 6p.m.",
+      "date_duration": 390,
+      "hour_duration": 22
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 7p.m.",
+      "date_duration": 390,
+      "hour_duration": 51
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 8p.m.",
+      "date_duration": 390,
+      "hour_duration": 11
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 9p.m.",
+      "date_duration": 390,
+      "hour_duration": 10
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 10p.m.",
+      "date_duration": 390,
+      "hour_duration": 17
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 11p.m.",
+      "date_duration": 390,
+      "hour_duration": 2
+    },
+    {
+      "date": "2022-07-25",
+      "hour": "2022-07-25 12p.m.",
+      "date_duration": 390,
+      "hour_duration": 4
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 1a.m.",
+      "date_duration": 458,
+      "hour_duration": 111
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 2a.m.",
+      "date_duration": 458,
+      "hour_duration": 122
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 3a.m.",
+      "date_duration": 458,
+      "hour_duration": 12
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 4a.m.",
+      "date_duration": 458,
+      "hour_duration": 22
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 5a.m.",
+      "date_duration": 458,
+      "hour_duration": 25
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 6a.m.",
+      "date_duration": 458,
+      "hour_duration": 52
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 7a.m.",
+      "date_duration": 458,
+      "hour_duration": 21
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 8a.m.",
+      "date_duration": 458,
+      "hour_duration": 21
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 9a.m.",
+      "date_duration": 458,
+      "hour_duration": 28
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 10a.m.",
+      "date_duration": 458,
+      "hour_duration": 24
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 11a.m.",
+      "date_duration": 458,
+      "hour_duration": 24
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 12a.m.",
+      "date_duration": 458,
+      "hour_duration": 60
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 1p.m.",
+      "date_duration": 458,
+      "hour_duration": 22
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 2p.m.",
+      "date_duration": 458,
+      "hour_duration": 2
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 3p.m.",
+      "date_duration": 458,
+      "hour_duration": 25
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 4p.m.",
+      "date_duration": 458,
+      "hour_duration": 32
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 5p.m.",
+      "date_duration": 458,
+      "hour_duration": 0
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 6p.m.",
+      "date_duration": 458,
+      "hour_duration": 22
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 7p.m.",
+      "date_duration": 458,
+      "hour_duration": 51
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 8p.m.",
+      "date_duration": 458,
+      "hour_duration": 11
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 9p.m.",
+      "date_duration": 458,
+      "hour_duration": 10
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 10p.m.",
+      "date_duration": 458,
+      "hour_duration": 17
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 11p.m.",
+      "date_duration": 458,
+      "hour_duration": 2
+    },
+    {
+      "date": "2022-07-24",
+      "hour": "2022-07-24 12p.m.",
+      "date_duration": 458,
+      "hour_duration": 4
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 1a.m.",
+      "date_duration": 200,
+      "hour_duration": 111
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 2a.m.",
+      "date_duration": 200,
+      "hour_duration": 122
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 3a.m.",
+      "date_duration": 200,
+      "hour_duration": 12
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 4a.m.",
+      "date_duration": 200,
+      "hour_duration": 22
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 5a.m.",
+      "date_duration": 200,
+      "hour_duration": 25
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 6a.m.",
+      "date_duration": 200,
+      "hour_duration": 52
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 7a.m.",
+      "date_duration": 200,
+      "hour_duration": 21
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 8a.m.",
+      "date_duration": 200,
+      "hour_duration": 21
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 9a.m.",
+      "date_duration": 200,
+      "hour_duration": 28
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 10a.m.",
+      "date_duration": 200,
+      "hour_duration": 24
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 11a.m.",
+      "date_duration": 200,
+      "hour_duration": 24
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 12a.m.",
+      "date_duration": 200,
+      "hour_duration": 60
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 1p.m.",
+      "date_duration": 200,
+      "hour_duration": 22
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 2p.m.",
+      "date_duration": 200,
+      "hour_duration": 2
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 3p.m.",
+      "date_duration": 200,
+      "hour_duration": 25
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 4p.m.",
+      "date_duration": 200,
+      "hour_duration": 32
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 5p.m.",
+      "date_duration": 200,
+      "hour_duration": 0
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 6p.m.",
+      "date_duration": 200,
+      "hour_duration": 22
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 7p.m.",
+      "date_duration": 200,
+      "hour_duration": 51
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 8p.m.",
+      "date_duration": 200,
+      "hour_duration": 11
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 9p.m.",
+      "date_duration": 200,
+      "hour_duration": 10
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 10p.m.",
+      "date_duration": 200,
+      "hour_duration": 17
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 11p.m.",
+      "date_duration": 200,
+      "hour_duration": 2
+    },
+    {
+      "date": "2022-07-23",
+      "hour": "2022-07-23 12p.m.",
+      "date_duration": 200,
+      "hour_duration": 4
+    }
+  ]
+}

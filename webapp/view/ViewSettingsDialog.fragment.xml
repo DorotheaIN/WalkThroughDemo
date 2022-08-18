@@ -1,0 +1,58 @@
+<core:FragmentDefinition
+        xmlns="sap.m"
+        xmlns:core="sap.ui.core">
+    <ViewSettingsDialog
+            confirm="handleConfirm" draggable="true" resizable="true" contentWidth="750px">
+        <customTabs>
+            <ViewSettingsCustomTab id="app-settings" icon="sap-icon://action-settings" title="Settings" tooltip="Application Settings">
+                <content>
+                    <Panel height="338px">
+                        <content>
+                            <Label text="Date Range" design="Bold" id="DateRangeLabel" labelFor="idOfDateRange"/>
+                            <Select
+                                    id="idOfDateRange"
+                                    required="true"
+                                    class="vsdSetting"
+                                    width="100%"
+                                    selectedKey="{ViewSettings>/value}"
+                                    selectionChange=".onRuntimeEnvChange"
+                                    items="{
+                                                path: 'ViewSettings>/DateRange',
+                                                sorter: {
+                                                    path: 'type',
+                                                    descending: false,
+                                                    group: true
+                                                }
+                                            }">
+                                <core:Item key="{ViewSettings>value}" text="{ViewSettings>name}" />
+                            </Select>
+                            <Label text="Category" design="Bold" labelFor="idOfCategory" />
+                            <Select
+                                    id="idOfCategory"
+                                    required="true"
+                                    class="vsdSetting"
+                                    width="100%"
+                                    selectedKey="{ViewSettings>/value}"
+                                    selectionChange=".onRuntimeEnvChange"
+                                    items="{
+                                                path: 'ViewSettings>/Category',
+                                                sorter: {
+                                                    path: 'type',
+                                                    descending: false,
+                                                    group: true
+                                                }
+                                            }">
+                                <core:Item key="{ViewSettings>value}" text="{ViewSettings>name}" />
+                            </Select>
+                        </content>
+                    </Panel>
+                </content>
+            </ViewSettingsCustomTab>
+<!--            <ViewSettingsCustomTab id="example-settings" tooltip="default icon">-->
+<!--                <content>-->
+<!--                    <Button text="simple button example" />-->
+<!--                </content>-->
+<!--            </ViewSettingsCustomTab>-->
+        </customTabs>
+    </ViewSettingsDialog>
+</core:FragmentDefinition>

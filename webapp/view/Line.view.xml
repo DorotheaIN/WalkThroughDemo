@@ -3,35 +3,93 @@
         controllerName="sap.ui.demo.walkthrough.controller.Line" xmlns="sap.m"
         xmlns:viz="sap.viz.ui5.controls" xmlns:layout="sap.ui.layout"
         xmlns:mvc="sap.ui.core.mvc" xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds"
+        xmlns:core="sap.ui.core"
+        xmlns:commons="sap.suite.ui.commons"
         xmlns:viz.data="sap.viz.ui5.data" height="100%">
     <layout:FixFlex id='chartFixFlex' minFlexSize="250">
         <layout:fixContent>
             <viz:Popover id="idPopOver"></viz:Popover>
         </layout:fixContent>
         <layout:flexContent>
-            <viz:VizFrame id="frame" uiConfig="{applicationSet:'fiori'}"
-                          height='100%' width="100%" vizType='line'>
-                <viz:dataset>
-                    <viz.data:FlattenedDataset data="{/milk}">
-                        <viz.data:dimensions>
-                            <viz.data:DimensionDefinition name="Weeks" value="{Week}" />
-                        </viz.data:dimensions>
-                        <viz.data:measures>
-                            <viz.data:MeasureDefinition name="Revenue" value="{Revenue}" />
-                            <viz.data:MeasureDefinition name="Cost" value="{Cost}" />
-                        </viz.data:measures>
-                    </viz.data:FlattenedDataset>
-                </viz:dataset>
+            <commons:ChartContainer
+                    id="chartContainer"
+                    showFullScreen="true"
+                    showPersonalization="false"
+                    autoAdjustHeight="false"
+                    personalizationPress="attachPersonalizationPress"
+                    contentChange="attachContentChange"
+                    showDrillButtons="true"
+                    title="Process Trending">
+                <commons:content>
+                    <commons:ChartContainerContent
+                            icon="sap-icon://line-chart"
+                            title="Line Chart">
+                        <commons:content>
 
-                <viz:feeds>
-                    <viz.feeds:FeedItem id='valueAxisFeed' uid="valueAxis" type="Measure"
-                                        values="Revenue" />
-                    <viz.feeds:FeedItem id='valueAxisFeed2' uid="valueAxis" type="Measure"
-                                        values="Cost" />
-                    <viz.feeds:FeedItem id='categoryAxisFeed' uid="categoryAxis" type="Dimension"
-                                        values="Weeks" />
-                </viz:feeds>
-            </viz:VizFrame>
+                            <viz:VizFrame id="frame" uiConfig="{applicationSet:'fiori'}"
+                                          height='700px' width="100%" vizType='line'>
+                                <viz:dataset>
+                                    <viz.data:FlattenedDataset data="{/Processes}">
+                                        <viz.data:dimensions>
+<!--                                            <viz.data:DimensionDefinition name="Hour" value="{hour}" />-->
+                                            <viz.data:DimensionDefinition name="Date" value="{date}"/>
+                                        </viz.data:dimensions>
+                                        <viz.data:measures>
+                                            <viz.data:MeasureDefinition name="Date_duration" value="{date_duration}" />
+                                            <viz.data:MeasureDefinition name="Hour_duration" value="{hour_duration}" />
+                                        </viz.data:measures>
+                                    </viz.data:FlattenedDataset>
+                                </viz:dataset>
+
+                                <viz:feeds>
+                                    <viz.feeds:FeedItem id='valueAxisFeed' uid="valueAxis" type="Measure"
+                                                        values="Date_duration" />
+                                    <viz.feeds:FeedItem id='categoryAxisFeed' uid="categoryAxis" type="Dimension"
+                                                        values="Date" />
+                                </viz:feeds>
+                            </viz:VizFrame>
+                        </commons:content>
+                    </commons:ChartContainerContent>
+                    <commons:ChartContainerContent icon="sap-icon://table-view" title="Table">
+                        <commons:content>
+                            <Table id="chartContainerContentTable" items="{ path: '/Reports' }">
+                                <columns>
+                                    <Column demandPopin="true">
+                                        <Label design="Bold" text="{i18n>Year}"/></Column>
+                                    <Column demandPopin="true">
+                                        <Label design="Bold" text="{i18n>SAP}"/></Column>
+                                    <Column demandPopin="true">
+                                        <Label design="Bold" text="{i18n>SAPUI5}"/></Column>
+                                    <Column demandPopin="true">
+                                        <Label design="Bold" text="{i18n>ABAP}"/></Column>
+                                    <Column demandPopin="true">
+                                        <Label design="Bold" text="{i18n>JAVA}"/></Column>
+                                </columns>
+                                <ColumnListItem press="">
+                                    <Text text="{Year}"></Text>
+                                    <Text text="{SAP}"></Text>
+                                    <Text text="{SAPUI5}"></Text>
+                                    <Text text="{ABAP}"></Text>
+                                    <Text text="{JAVA}"></Text>
+                                </ColumnListItem>
+                            </Table>
+                        </commons:content>
+                    </commons:ChartContainerContent>
+                </commons:content>
+                <commons:customIcons>
+                    <core:Icon id="drillUpIcon" src="sap-icon://drill-up" tooltip="Drill Up" press=".drillUp"
+                    ></core:Icon>
+                </commons:customIcons>
+                <commons:customIcons>
+                    <core:Icon id="drillDownIcon" src="sap-icon://drill-down" tooltip="Drill Down" press=".drillDown"
+                    ></core:Icon>
+                </commons:customIcons>
+                <commons:customIcons>
+                    <core:Icon id="settingIcon" src="sap-icon://action-settings" tooltip="Setting" press=".handleOpenDialog"
+                    ></core:Icon>
+                </commons:customIcons>
+            </commons:ChartContainer>
+
         </layout:flexContent>
     </layout:FixFlex>
 <!--    <Page-->
