@@ -19,7 +19,6 @@ sap.ui.define([
 
                 }
             },
-
             dimensions: {
                 Date:[{
                     name:'Date',
@@ -92,6 +91,7 @@ sap.ui.define([
                 },
                 valueAxis: {
                     label: {
+
                     },
                     title: {
                         visible: false
@@ -219,7 +219,15 @@ sap.ui.define([
         testFilter:function (range) {
             var aFilter = [];
             console.log(this._getCurrentDate());
-            aFilter.push(new Filter("date",FilterOperator.Contains,"2022-07-27"))
+            aFilter.push(new Filter({
+                path:"date",
+                test:function (oValue) {
+                    var oDate = new Date(oValue)
+                    var curDate = new Date("2022-07-25")
+                    // console.log(this.value1)
+                    return oDate.getTime()>curDate.getTime()
+                },
+                value1:range}))
             var oBinding = this.oVizFrame.getDataset().getBinding('data')
             oBinding.filter(aFilter)
             console.log(oBinding)
@@ -228,7 +236,7 @@ sap.ui.define([
             var dateIns = new Date();
             return dateIns.getFullYear() + '-' + this._repairMonth(dateIns.getMonth()) + '-' + dateIns.getDate();
         },
-        _repairMonth:function (month){
+        _repairMonth:function (month) {
             month = month + 1;
             return (month < 10) ? '0'+ month.toString() : month.toString();
         }
